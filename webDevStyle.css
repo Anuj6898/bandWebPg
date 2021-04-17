@@ -1,0 +1,278 @@
+
+*{
+    box-sizing: border-box;
+    font-family: Monotype Corsiva;
+    color: rgb(182, 182, 182);
+    font-style: normal;
+    font-size: 30px;
+}
+html, body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    
+    display: inline-block;
+    padding: 1.5em;
+    color: #4be9c1 ;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav a:hover{
+    background-color:rgba(35, 161, 161, 0.2);
+}
+.main-nav{
+    text-align: center;
+    font-weight:normal;
+}
+
+.main-header{
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    background-image: url("goldLogo1.jfif");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 100px;
+
+}
+.band-name {
+    font-family: MingLiU-ExtB;
+    text-align: center;
+    margin:0;
+    font-size: 4em;;
+    font-weight: normal;
+    color:  white;
+}
+.band-name-footer{
+    font-family: MingLiU-ExtB;
+    font-weight: normal;
+    color: white;
+    margin: 20px;
+    font-size: 2em;
+    margin-left: 100px;
+}
+.band-name-large{
+    font-size: 9em;
+    
+}
+.content-section{
+    margin: 1em;
+    background-color: rgba(0,0,0,.9);
+    background-image: url("fmbg.jfif");
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 .5em;
+}
+.section-header{
+    font-family: Lucida Calligraphy;
+    font-weight: normal;
+    font-size: 2.5em;
+    color: rgb(175, 146, 146);
+    text-align: center;
+}
+.about-band-image{
+    float: right;
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: rgb(5, 122, 122);
+    
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+.footer-container ul{
+    margin-left: auto;
+}
+.footer-container li{
+    padding: 0 1em;
+    
+}
+.homePage-header{
+    text-align: center;
+    background-color: rgba(0,0,0,.2);
+    background-image: url("goldLogo1.jfif");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 100px;
+}
+.btn{
+    color: rgb(196, 233, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin: 10px;
+}
+.btn:hover{
+    background-color:rgba(176, 211, 211, 0.2);
+
+}
+.play{
+    display: block;
+    border-radius: 50%;
+    padding: 0;
+    font-weight: bolder;
+    color: dodgerblue;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+.box-tour{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;    
+}
+.tour-item{
+    width: 34%;
+}
+.tour-item-place{
+    width: 32%;
+}
+.tour-item-btn{
+    display: inline-block;
+       
+}
+.shop-item{
+    margin: 30px;
+    border: 2px solid white;
+    border-radius: 20px ;
+    padding: 30px;
+    margin: 30px;
+    border-right: 0;
+    border-top: 0;
+}
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: larger;
+}
+.shop-item-btn{
+    background-color:rgb(16, 107, 168);
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 4px solid lightcoral;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.shop-item-img{
+    height: 400px;
+    margin-left: 3em;
+    border-radius: 10px;
+    border: 1px solid slateblue;
+
+}
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 20px;
+    margin-right: 1.5em;
+    padding: 20px;
+    margin-top: 10px;
+} 
+.cart-row-cat{
+    display: flex;
+    margin: 20px;
+}
+.cart-row{
+    display: flex;
+    padding: 20px;
+}
+.cart-item{
+    width: 34%;
+}
+.cart-price{
+    width: 32%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cart-quantity{
+    width:34%;
+}
+.cart-item-title{
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cart-item-img{
+    border-radius: 10px;
+    border: 1px solid slateblue;
+}
+.btn-outline-danger:hover{
+    background-color: rgb(194, 41, 41);
+}
+.cart-quantity-input{
+    text-align: center;
+    color: #333;
+    font-size: larger;
+    height: 55px;
+    width: 80px;
+    border-radius: 10px;
+    border:3px solid rgb(68, 176, 190); 
+}
+.cart-total{
+    text-align: end;
+    font-size: larger;
+}
+.total{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em;
+}
+.total-price{
+    font-size:larger;
+    font-weight: bolder;
+}
+.purchase-btn{
+    display: flex;
+    margin: 40px auto 80px auto;
+    background-color: rgb(16, 107, 168);
+    color: white; 
+    
+}
+.zoom {
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.05);
+}
