@@ -1,4 +1,6 @@
 # bandWebPg
+
+## First Web Project Ever!!
 Web page project based on favourite band 
 Using HTML CSS & JavaScript
 Consists of 3 Pages Home/Shop/About
